@@ -9,7 +9,7 @@ class Test_huogo():
         x = "this"
         assert "h" in x
 
-    # def test_two(self):
+    # def test_two(self):git
     #     x = "hello"
     #     assert hasattr(x, "check")
     @allure.story("步骤三")
@@ -23,3 +23,5 @@ class Test_huogo():
 
 if __name__ == '__main__':
     pytest.main(['-v','test_needsfiles'])
+
+    #第二次
