@@ -2,7 +2,7 @@
 
 import pytest
 
-@pytest.fixture(scope='function')
+@pytest.fixture(scope='function',)
 def login():
     print("这是一个fixture方法")
     yield

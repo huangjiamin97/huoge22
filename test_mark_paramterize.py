@@ -1,7 +1,9 @@
+import decimal
 
 import pytest
 import allure_pytest
 import allure
+import decimal
 test_user_data = ['Tome','Jerry']
 @pytest.fixture(scope='module')
 def login_r(request):
@@ -16,3 +18,5 @@ def test_login(login_r):
     with allure.step("步骤二"):
         print(f"测试用例中login的返回值; {a}")
         assert  a !=''
+
+
